@@ -1,0 +1,21 @@
+FOODBRIDGE - START HERE (WINDOWS)
+
+1. Install Docker Desktop: https://www.docker.com/products/docker-desktop/
+2. Open Docker Desktop and wait until its engine is running.
+3. Extract this ZIP to a normal folder, such as C:\Projects\FoodBridge.
+4. Double-click start-windows.bat.
+5. Wait for the first build. Then visit http://localhost:5173.
+6. Keep the black startup window open while using the app.
+7. To stop the app, press Ctrl+C in that window or run stop-windows.bat.
+
+DEMO ACCOUNTS
+Admin:     admin@foodbridge.local       / Admin123!
+Donor:     donor@foodbridge.local       / Donor123!
+NGO:       ngo@foodbridge.local         / Ngo123!
+Volunteer: volunteer@foodbridge.local  / Volunteer123!
+Pending NGO: pending@foodbridge.local  / Ngo123!
+
+IMPORTANT
+- Docker Desktop and an internet connection are required for the first run.
+- Demo credentials and local secrets are for local use only.
+- This is a student MVP. Read README.md and docs/ before any public deployment.
