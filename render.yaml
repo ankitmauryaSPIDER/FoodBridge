@@ -3,6 +3,7 @@ services:
     name: foodbridge-api
     runtime: docker
     plan: free
+    region: singapore
     rootDir: backend
     dockerfilePath: ./Dockerfile
     healthCheckPath: /api/health
